@@ -1,0 +1,13 @@
+.header {
+  padding: 43px 0;
+  
+  &__logo {
+    font-family: "Poppins";
+    font-size: 32px;
+    color: $color-text-body;
+  }
+
+  &__text-green {
+    color: $brand-color;
+  }
+}

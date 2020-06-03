@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="54px" viewBox="0 0 49 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="2.-Langin-page-option-2" transform="translate(-1148.000000, -3674.000000)" stroke-width="2.5">
+            <g id="Group-14" transform="translate(1150.000000, 3676.000000)">
+                <path d="M10.8333333,13 L0,13 L13,0 L13,10.8333333 C13,12.1333333 12.1333333,13 10.8333333,13 Z" id="Path" stroke="#2E354B" stroke-linecap="round"></path>
+                <path d="M41,30.2885906 L41,47.7852349 C41,49.114094 40.1368421,50 38.8421053,50 L2.15789474,50 C0.863157895,50 0,49.114094 0,47.7852349 L0,17" id="Path" stroke="#2E354B" stroke-linecap="round"></path>
+                <path d="M17,0 L38.8181818,0 C40.1272727,0 41,0.866666667 41,2.16666667 L41,13" id="Path" stroke="#2E354B" stroke-linecap="round"></path>
+                <polygon id="Path" stroke="#36D966" stroke-linecap="round" points="26.4919355 39.0806452 18 43 21.9193548 34.5080645 40.4274194 16 45 20.7903226"></polygon>
+                <path d="M42,25 L38,21" id="Path" stroke="#36D966"></path>
+                <path d="M27,39 L23,35" id="Path" stroke="#36D966"></path>
+            </g>
+        </g>
+    </g>
+</svg>
