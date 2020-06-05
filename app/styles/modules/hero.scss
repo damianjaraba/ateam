@@ -77,52 +77,6 @@
     }
   }
 
-  &__figures-circle {
-    width: 30px;
-    height: 30px;
-    border: 6px solid #4536d9;
-    border-radius: 30px;
-    position: absolute;
-    top: 340px;
-    left: 750px;
-  }
-
-  &__figures-circle-1 {
-    width: 25px;
-    height: 25px;
-    border: 6px solid $brand-color;
-    border-radius: 25px;
-    position: absolute;
-    top: 173px;
-    left: 449px;
-  }
-
-  &__figures-oval {
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    background-color: $brand-color;
-    position: absolute;
-    top: -18px;
-    left: 700px;
-  }
-
-  &__figures-oval-1 {
-    width: 15px;
-    height: 15px;
-    border-radius: 15px;
-    background-color: $brand-color;
-    position: absolute;
-    top: 31px;
-    left: 217px;
-  }
-
-  &__figures-path {
-    position: absolute;
-    top: 250px;
-    left: 0;
-  }
-
   &__team {
     display: flex;
     padding-top: 20px;

@@ -1,0 +1,152 @@
+.geometric-figures {
+  &-circle {
+    width: 30px;
+    height: 30px;
+    border: 6px solid $color-figures;
+    border-radius: 30px;
+    position: absolute;
+    top: 340px;
+    left: 750px;
+  }
+
+  &-circle-1 {
+    width: 25px;
+    height: 25px;
+    border: 6px solid $brand-color;
+    border-radius: 25px;
+    position: absolute;
+    top: 173px;
+    left: 449px;
+  }
+
+  &-oval {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: $brand-color;
+    position: absolute;
+    top: -18px;
+    left: 700px;
+  }
+
+  &-oval-1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: $brand-color;
+    position: absolute;
+    top: 31px;
+    left: 217px;
+  }
+
+  &-path {
+    position: absolute;
+    top: 250px;
+    left: 0;
+  }
+
+  &-rectangle {
+    width: 25px;
+    height: 67px;
+    transform: rotate(44deg);
+    border-radius: 12.5px;
+    border: 6px solid $brand-color;
+  }
+
+  &-triangle {
+    position: absolute;
+    top: 247px;
+    left: 15px;
+    border-bottom: solid 36px $brand-color;
+    border-right: solid 20px transparent;
+    border-left: solid 20px transparent;
+    z-index: 2;
+  }
+
+  &-triangle-empty {
+    position: absolute;
+    top: 251px;
+    left: 338px;
+    width: 0;
+    border-top: solid 36px $brand-color;
+    border-right: solid 21px transparent;
+    border-left: solid 21px transparent;
+    z-index: 2;
+  }
+
+  &-empty {
+    position: absolute;
+    top: -31px;
+    left: -12px;
+    width: 0;
+    border-top: solid 20px $white;
+    border-right: solid 12px transparent;
+    border-left: solid 12px transparent;
+  }
+
+  &-triangle-gordon{
+    position: absolute;
+    top: 220px;
+    left: 1160px;
+    border-bottom: solid 36px $brand-color;
+    border-right: solid 20px transparent;
+    border-left: solid 20px transparent;
+    z-index: 2;
+  }
+}
+
+.members {
+  &--circle {
+    top: 90px;
+    left: 200px;
+  }
+
+  &--oval {
+    width: 24px;
+    height: 24px;
+    top: 347px;
+    left: 605px;
+
+    &-blue {
+      background-color: $color-figures;
+      width: 24px;
+      height: 24px;
+      top: 80px;
+      left: 700px;
+    }
+
+    &-gordon {
+      background-color: $color-figures;
+      width: 18px;
+      height: 18px;
+      top: 80px;
+      left: 1240px;
+    }
+  }
+
+  &-rectangle {
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 628px;
+    top: 100;
+  }
+
+  &-rectangle-copy {
+    position: absolute;
+    border: 6px solid $color-text-body;
+    left: 1020px;
+    top: 20px;
+  }
+
+  &-rectangle-copy-2 {
+    position: absolute;
+    width: 22px;
+    height: 58px;
+    border-radius: 12.5px;
+    transform: rotate(45deg);
+    left: 941px;
+    top: 122px;
+    background-color: $color-figures;
+  }
+}
+

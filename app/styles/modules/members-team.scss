@@ -1,0 +1,59 @@
+.members__team {
+  position: relative;
+  display: flex;
+
+  &-image-1 {
+    position: relative;
+    left: -38px;
+  }
+
+  &-image-2 {
+    position: relative;
+    top: 15px;
+    margin-bottom: 15px;
+  }
+
+  &-2 {
+    position: relative;
+    left: 90px;
+  }
+  &-3 {
+    position: relative;
+    left: 170px;
+  }
+
+  &-4 {
+    position: relative;
+    left: 290px;
+  }
+
+  &-name {
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  &-typeface {
+    font-size: 18px;
+    line-height: 1.67;
+    color: $color-profession;
+  }
+
+  &-description {
+    width: 221px;
+
+    &-team-image-2 {
+      margin-bottom: 40px;
+    }
+  }
+
+  &-social-icons {
+    display: flex;
+    color: $brand-color;
+
+    &-twitter {
+      margin-right: 10px;
+    }
+  }
+}
