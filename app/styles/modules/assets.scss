@@ -1,0 +1,41 @@
+.assets {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 400px;
+
+  &__shape {
+    position: absolute;
+    left: 100px;
+  }
+
+  &__circle {
+    font-weight: bold;
+
+    &-1 {
+      color: $brand-color;
+      font-size: 24px;
+      top: 20px;
+      left: 590px;
+    }
+
+    &-2 {
+      position: absolute;
+      top: 130px;
+      left: 597px;
+    }
+
+    &-3 {
+      position: absolute;
+      top: 220px;
+      left: 597px;
+    }
+  }
+
+  &__text {
+    position: absolute;
+    top: 60px;
+    left: 730px;
+    width: 376px;
+  }
+}

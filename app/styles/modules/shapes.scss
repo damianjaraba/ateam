@@ -1,0 +1,140 @@
+.circle {
+  border-radius: 50%;
+  position: absolute;
+
+  &--small {
+    width: 15px;
+    height: 15px;
+  }
+
+  &--18 {
+    width: 18px;
+    height: 18px;
+  }
+
+  &--medium {
+    width: 24px;
+    height: 24px;
+  }
+
+  &--large {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    
+  }
+
+  &--super-large {
+    width: 50px;
+    height: 50px;
+    color: $white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  &--blue {
+    background-color: $purple-heart;
+  }
+
+  &--green {
+    background-color: $shamrock;
+  }
+
+  &--gray {
+    background-color: $alto;
+  }
+}
+
+.circle-bordered {
+  position: absolute;
+  border: 5px solid transparent;
+  border-radius: 50%;
+
+  &--medium {
+    width: 25px;
+    height: 25px;
+  }
+
+  &--large {
+    width: 30px;
+    height: 30px;
+  }
+
+  &--super {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  &--green {
+    border-color: $shamrock;
+  }
+
+  &--blue {
+    border-color: $purple-heart;
+  }
+
+  &--gray {
+    border-color: $alto;
+  }
+}
+
+.triangle-bordered {
+  position: absolute;
+  border-top: solid 36px $brand-color;
+  border-right: solid 21px transparent;
+  border-left: solid 21px transparent;
+  z-index: 2;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: -31px;
+    left: -12px;
+    border-top: solid 20px $white;
+    border-right: solid 12px transparent;
+    border-left: solid 12px transparent;
+  }
+
+  &--solid:before {
+    content: none;
+  }
+
+  &--solid {
+    transform: rotate(60deg);
+  }
+}
+
+.rectangle {
+  position: absolute;
+  width: 25px;
+  height: 67px;
+  transform: rotate(44deg);
+  border-radius: 12.5px;
+
+  &--green {
+    border: 6px solid $brand-color;
+  }
+
+  &--martinique {
+    border: 6px solid $martinique;
+  }
+
+  &--left {
+    transform: rotate(-44deg);
+  }
+
+  &--solid {
+    width: 22px;
+    height: 58px;
+    background-color: $color-figures;
+  }
+}

@@ -1,0 +1,25 @@
+.big-rectangle {
+  background-color: $brand-color;
+  color: $white;
+  width: auto;
+  height: 481px;
+  padding: 55px 347px 0 226px;
+
+  &__title {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 0.98;
+    letter-spacing: -0.8px;
+    margin-bottom: 31px;
+  }
+
+  &__text {
+    width: 400px;
+    height: 88px;
+    margin-bottom: 41px;
+  }
+
+  &__button {
+    border-radius: 10px;
+  }
+}

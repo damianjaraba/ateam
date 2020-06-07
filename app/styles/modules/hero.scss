@@ -13,6 +13,7 @@
   &__description {
     max-width: 477px;
     font-size: 20px;
+    margin-bottom: 50px;
   }
 
   &__green-circle {
@@ -47,65 +48,67 @@
 
   &__image-text-team {
     position: absolute;
-    top: 26px;
+    top: 30px;
     left: 96px;
     font-size: 20px;
     color: $white;
   }
 
-  &__people {
+  &__picture {
     position: absolute;
-    top: 13px;
-    left: 62px;
 
-    &-2 {
-      position: absolute;
-      bottom: -52px;
-      left: 166px;
+    &--1 {
+      top: 13px;
+      left: 62px;
     }
 
-    &-3 {
-      position: absolute;
-      top: -23px;
-      left: 348px;
+    &--2 {
+      top: 55px;
+      left: 240px;
     }
 
-    &-4 {
-      position: absolute;
-      bottom: -75px;
-      left: 526px;
+    &--3 {
+      top: -49px;
+      left: 410px;
+    }
+
+    &--4 {
+      top: 70px;
+      left: 570px;
     }
   }
 
-  &__team {
+  &__buttons {
     display: flex;
-    padding-top: 20px;
   }
 
-  &__team-hire {
-    background-color: $brand-color;
-    width: 196px;
-    height: 60px;
-    border-radius: 3px;
-    padding: 20px 32px 18px 33px;
-    margin-right: 30px;
+  &__button {
+    margin-right: 22px;
   }
 
-  &__team-hire-link {
-    color: $white;
-    letter-spacing: 0.7px;
+  &__circle-1 {
+    top: 27px;
+    left: 220px;
   }
 
-  &__team-join {
-    border: 2px solid $brand-color;
-    width: 196px;
-    height: 60px;
-    border-radius: 3px;
-    padding: 20px 44px 18px 46px;
+  &__circle-2 {
+    top: -56px;
+    left: 690px;
   }
 
-  &__team-join-link {
-    color: $brand-color;
-    letter-spacing: 0.4px;
+  &__circle-3 {
+    top: 184px;
+    left: 447px;
+  }
+
+  &__circle-4 {
+    top: 341px;
+    left: 725px;
+  }
+
+  &__triangle {
+    transform: rotate(-48deg);
+    top: 266px;
+    left: -11px;
   }
 }
