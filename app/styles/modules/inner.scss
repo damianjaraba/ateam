@@ -1,0 +1,13 @@
+.inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 154px;
+
+  &__title {
+    max-width: 667px;
+    font-size: 45px;
+    line-height: 0.98;
+    letter-spacing: -0.8px;
+  }
+}

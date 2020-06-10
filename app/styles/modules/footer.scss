@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 39px;
+
+  &__copy--text {
+    font-size: 14px;
+    line-height: 2.29;
+    letter-spacing: -0.05px;
+  }
+
+  &__copy--icon {
+    margin-right: 10px;
+  }
+  &__icon {
+    display: flex;
+    align-items: center;
+    color: $brand-color;
+  }
+
+  &__social-icons {
+    display: flex;
+
+    &-twitter {
+      margin-right: 10px;
+    }
+
+    &-github {
+      margin-right: 10px;
+    }
+  }
+}

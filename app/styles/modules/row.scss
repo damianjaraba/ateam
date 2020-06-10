@@ -1,0 +1,80 @@
+.row {
+  position: relative;
+  margin-bottom: 175px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+
+  &__image {
+    margin-bottom: 20px;
+  }
+
+  &__col {
+    &-title {
+      font-size: 20px;
+      color: $brand-color;
+    }
+
+    &-text {
+      width: 263px;
+      height: 70px;
+    }
+  }
+
+  &__circle {
+    position: absolute;
+
+    &-1 {
+      top: 70px;
+      left: 20px;
+    }
+
+    &-2 {
+      top: -30px;
+      left: 300px;
+    }
+
+    &-3 {
+      top: -100px;
+      left: 540px;
+    }
+
+    &-4 {
+      top: 110px;
+      left: 580px;
+    }
+
+    &-5 {
+      top: 55px;
+      left: 860px;
+    }
+
+    &-6 {
+      top: 80px;
+      left: 930px;
+    }
+  }
+
+  &__triangle {
+    &-1 {
+      top: -80px;
+      left: 30px;
+    }
+
+    &-2 {
+      top: -100px;
+      left: 800px;
+      transform: rotate(-60deg);
+    }
+
+    &-3 {
+      top: -100px;
+      left: 1120px;
+    }
+  }
+
+  &__rectangle-1 {
+    top: 110px;
+    left: 1230px;
+  }
+}

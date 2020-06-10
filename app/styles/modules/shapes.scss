@@ -21,7 +21,6 @@
     width: 30px;
     height: 30px;
     display: flex;
-    
   }
 
   &--super-large {
@@ -46,6 +45,10 @@
 
   &--gray {
     background-color: $alto;
+  }
+
+  &--wild-sand {
+    background-color: $wild-sand;
   }
 }
 
@@ -111,6 +114,15 @@
   &--solid {
     transform: rotate(60deg);
   }
+
+  &--gray {
+    border-top: solid 36px $alto;
+    transform: rotate(120deg);
+  }
+
+  &--wild-sand {
+    border-top: solid 36px $wild-sand;
+  }
 }
 
 .rectangle {
@@ -137,4 +149,9 @@
     height: 58px;
     background-color: $color-figures;
   }
+
+  &--wild-sand {
+    border: 6px solid $wild-sand;
+  }
+
 }
