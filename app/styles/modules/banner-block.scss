@@ -1,0 +1,20 @@
+.banner-block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+
+  &__link {
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: $brand-color;
+    margin-right: 10px;
+    opacity: 0.24;
+  }
+
+  &__link:hover {
+    background-color: $brand-color;
+    cursor: pointer;
+    opacity: 100%;
+  }
+}

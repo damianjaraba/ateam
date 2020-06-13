@@ -1,0 +1,23 @@
+.button {
+  min-width: 196px;
+  border-radius: 3px;
+  padding: 17px 31px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  border: 2px solid transparent;
+  text-align: center;
+  display: inline-block;
+
+  &--primary {
+    background-color: $brand-color;
+    border-color: $brand-color;
+    color: $white;
+  }
+
+  &--secondary {
+    color: $brand-color;
+    border-color: $brand-color;
+    background-color: $white;
+  }
+}

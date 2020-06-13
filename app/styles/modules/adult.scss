@@ -1,0 +1,10 @@
+.adult {
+  position: relative;
+
+  &__bar {
+    position: relative;
+    left: 200px;
+    top: -67px;
+    margin-bottom: 10px;
+  }
+}
