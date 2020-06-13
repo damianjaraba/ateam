@@ -7,6 +7,7 @@
   letter-spacing: 0.7px;
   border: 2px solid transparent;
   text-align: center;
+  display: inline-block;
 
   &--primary {
     background-color: $brand-color;

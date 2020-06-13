@@ -1,0 +1,98 @@
+.members {
+  position: relative;
+  margin-bottom: 89px;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 80px;
+  }
+
+  &__social-icons {
+    display: flex;
+    color: $brand-color;
+
+    &-twitter {
+      margin-right: 10px;
+    }
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__name {
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  &__role {
+    font-size: 18px;
+    line-height: 1.67;
+    color: $color-profession;
+  }
+
+  &__text {
+    margin-bottom: 65px;
+  }
+
+  &__description {
+    width: 221px;
+  }
+
+  &__circle-1 {
+    top: 90px;
+    left: 180px;
+  }
+
+  &__rectangle-1 {
+    top: 50px;
+    left: -70px;
+  }
+
+  &__triangle-1 {
+    top: 250px;
+    left: -15px;
+  }
+
+  &__triangle-2 {
+    top: 240px;
+    left: 300px;
+  }
+
+  &__circle-2 {
+    top: 350px;
+    left: 570px;
+  }
+
+  &__rectangle-2 {
+    top: 100px;
+    left: 593px;
+  }
+
+  &__circle-3 {
+    top: 80px;
+    left: 670px;
+  }
+
+  &__rectangle-3 {
+    top: 130px;
+    left: 920px;
+  }
+
+  &__rectangle-4 {
+    top: 40px;
+    left: 990px;
+  }
+
+  &__triangle-3 {
+    top: 230px;
+    left: 1130px;
+  }
+  &__circle-4 {
+    top: 0px;
+    left: 1200px;
+  }
+}

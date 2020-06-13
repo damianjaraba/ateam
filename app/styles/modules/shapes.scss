@@ -7,11 +7,6 @@
     height: 15px;
   }
 
-  &--18 {
-    width: 18px;
-    height: 18px;
-  }
-
   &--medium {
     width: 24px;
     height: 24px;
@@ -21,18 +16,6 @@
     width: 30px;
     height: 30px;
     display: flex;
-  }
-
-  &--super-large {
-    width: 50px;
-    height: 50px;
-    color: $white;
-    font-weight: bold;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
 
   &--blue {
@@ -153,5 +136,4 @@
   &--wild-sand {
     border: 6px solid $wild-sand;
   }
-
 }

@@ -38,4 +38,16 @@
     left: 730px;
     width: 376px;
   }
+
+  .circle--super-large {
+    width: 50px;
+    height: 50px;
+    color: $white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }

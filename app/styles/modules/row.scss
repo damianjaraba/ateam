@@ -1,9 +1,11 @@
 .row {
-  position: relative;
-  margin-bottom: 175px;
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
+  &__grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+    margin-bottom: 175px;
+  }
 
   &__image {
     margin-bottom: 20px;
@@ -16,65 +18,68 @@
     }
 
     &-text {
-      width: 263px;
-      height: 70px;
+      max-width: 263px;
     }
+  }
+
+  &__shapes {
+    position: relative;
   }
 
   &__circle {
     position: absolute;
 
     &-1 {
-      top: 70px;
-      left: 20px;
+      top: -330px;
     }
 
     &-2 {
-      top: -30px;
-      left: 300px;
+      top: -440px;
+      left: 280px;
     }
 
     &-3 {
-      top: -100px;
+      top: -500px;
       left: 540px;
     }
 
     &-4 {
-      top: 110px;
+      top: -290px;
       left: 580px;
     }
 
     &-5 {
-      top: 55px;
+      top: -340px;
       left: 860px;
     }
 
     &-6 {
-      top: 80px;
-      left: 930px;
+      top: -310px;
+      left: 950px;
     }
   }
 
   &__triangle {
     &-1 {
-      top: -80px;
-      left: 30px;
+      top: -510px;
+      left: 20px;
+      transform: rotate(120deg);
     }
 
     &-2 {
-      top: -100px;
+      top: -500px;
       left: 800px;
       transform: rotate(-60deg);
     }
 
     &-3 {
-      top: -100px;
+      top: -500px;
       left: 1120px;
     }
   }
 
   &__rectangle-1 {
-    top: 110px;
+    top: -300px;
     left: 1230px;
   }
 }
