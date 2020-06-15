@@ -50,16 +50,6 @@
     height: 30px;
   }
 
-  &--super {
-    width: 64px;
-    height: 64px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
   &--green {
     border-color: $shamrock;
   }
@@ -90,12 +80,12 @@
     border-left: solid 12px transparent;
   }
 
-  &--solid:before {
-    content: none;
-  }
-
   &--solid {
     transform: rotate(60deg);
+
+    &:before {
+      content: none;
+    }
   }
 
   &--gray {

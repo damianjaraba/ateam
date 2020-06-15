@@ -37,21 +37,21 @@
     position: absolute;
     top: 348px;
     left: 356px;
-  }
 
-  &__image-text-name {
-    font-family: "Brusthy";
-    font-size: 30px;
-    line-height: 30px;
-    letter-spacing: 0.1;
-  }
+    &--name {
+      font-family: "Brusthy";
+      font-size: 30px;
+      line-height: 30px;
+      letter-spacing: 0.1;
+    }
 
-  &__image-text-team {
-    position: absolute;
-    top: 30px;
-    left: 96px;
-    font-size: 20px;
-    color: $white;
+    &--team {
+      position: absolute;
+      top: 30px;
+      left: 96px;
+      font-size: 20px;
+      color: $white;
+    }
   }
 
   &__picture {
@@ -80,9 +80,6 @@
 
   &__buttons {
     display: flex;
-  }
-
-  &__button {
     margin-right: 22px;
   }
 

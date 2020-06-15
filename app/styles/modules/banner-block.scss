@@ -6,15 +6,18 @@
   &__link {
     width: 6px;
     height: 6px;
-    border-radius: 6px;
+    border-radius: 50%;
     background-color: $brand-color;
-    margin-right: 10px;
     opacity: 0.24;
-  }
 
-  &__link:hover {
-    background-color: $brand-color;
-    cursor: pointer;
-    opacity: 100%;
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    &:hover {
+      background-color: $brand-color;
+      cursor: pointer;
+      opacity: 100%;
+    }
   }
 }

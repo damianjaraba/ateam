@@ -1,53 +1,41 @@
 .assets {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 400px;
 
-  &__shape {
-    position: absolute;
-    left: 100px;
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    column-gap: 40px;
+    align-items: center;
+    justify-items: center;
   }
 
   &__circle {
+    justify-self: center;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
     font-weight: bold;
+    display: grid;
+    row-gap: 30px;
 
-    &-1 {
-      color: $brand-color;
+    &-border--green {
+      width: 64px;
+      height: 64px;
       font-size: 24px;
-      top: 20px;
-      left: 590px;
+      color: $brand-color;
+      border: 5px solid $brand-color;
     }
 
-    &-2 {
-      position: absolute;
-      top: 130px;
-      left: 597px;
-    }
-
-    &-3 {
-      position: absolute;
-      top: 220px;
-      left: 597px;
+    &--gray {
+      width: 50px;
+      height: 50px;
+      color: $white;
+      font-size: 20px;
+      background-color: $alto;
     }
   }
 
   &__text {
-    position: absolute;
-    top: 60px;
-    left: 730px;
-    width: 376px;
-  }
-
-  .circle--super-large {
-    width: 50px;
-    height: 50px;
-    color: $white;
-    font-weight: bold;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    max-width: 376px;
   }
 }

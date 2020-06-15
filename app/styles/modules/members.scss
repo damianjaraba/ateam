@@ -1,5 +1,4 @@
 .members {
-  position: relative;
   margin-bottom: 89px;
 
   &__grid {
@@ -12,7 +11,7 @@
     display: flex;
     color: $brand-color;
 
-    &-twitter {
+    &:not(:last-child) {
       margin-right: 10px;
     }
   }
@@ -39,60 +38,66 @@
   }
 
   &__description {
-    width: 221px;
+    max-width: 221px;
   }
 
-  &__circle-1 {
-    top: 90px;
-    left: 180px;
+  &__circle {
+    &-1 {
+      top: 90px;
+      left: 240px;
+    }
+
+    &-2 {
+      top: 350px;
+      left: 570px;
+    }
+
+    &-3 {
+      top: 80px;
+      left: 700px;
+    }
+
+    &-4 {
+      top: 50px;
+      left: 1200px;
+    }
   }
 
-  &__rectangle-1 {
-    top: 50px;
-    left: -70px;
+  &__rectangle {
+    &-1 {
+      top: 50px;
+    }
+
+    &-2 {
+      top: 100px;
+      left: 640px;
+    }
+
+    &-3 {
+      top: 130px;
+      left: 940px;
+    }
+
+    &-4 {
+      top: 40px;
+      left: 990px;
+    }
   }
 
-  &__triangle-1 {
-    top: 250px;
-    left: -15px;
-  }
+  &__triangle {
+    &-1 {
+      top: 250px;
+      left: 40px;
+    }
 
-  &__triangle-2 {
-    top: 240px;
-    left: 300px;
-  }
+    &-2 {
+      top: 240px;
+      left: 330px;
+    }
 
-  &__circle-2 {
-    top: 350px;
-    left: 570px;
-  }
-
-  &__rectangle-2 {
-    top: 100px;
-    left: 593px;
-  }
-
-  &__circle-3 {
-    top: 80px;
-    left: 670px;
-  }
-
-  &__rectangle-3 {
-    top: 130px;
-    left: 920px;
-  }
-
-  &__rectangle-4 {
-    top: 40px;
-    left: 990px;
-  }
-
-  &__triangle-3 {
-    top: 230px;
-    left: 1130px;
-  }
-  &__circle-4 {
-    top: 0px;
-    left: 1200px;
+    &-3 {
+      top: 230px;
+      left: 1130px;
+    }
   }
 }

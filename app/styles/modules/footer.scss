@@ -3,31 +3,26 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 39px;
+  font-size: 14px;
+  line-height: 2.29;
+  letter-spacing: -0.05px;
 
-  &__copy--text {
-    font-size: 14px;
-    line-height: 2.29;
-    letter-spacing: -0.05px;
-  }
-
-  &__copy--icon {
-    margin-bottom: 0;
-    margin-right: 10px;
-  }
-  &__icon {
+  &__text {
     display: flex;
     align-items: center;
-    color: $brand-color;
+
+    &--green {
+      color: $brand-color;
+    }
   }
 
   &__social-icons {
+    margin-left: 10px;
     display: flex;
+  }
 
-    &-twitter {
-      margin-right: 10px;
-    }
-
-    &-github {
+  &__icon {
+    &:not(:last-child) {
       margin-right: 10px;
     }
   }
