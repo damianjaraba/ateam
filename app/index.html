@@ -79,12 +79,12 @@
             />
           </picture>
           <div class="hero__image-text">
-            <div class="hero__image-text-name">Martin Garrix</div>
-            <span class="hero__image-text-team">Team Lead</span>
+            <div class="hero__image-text--name">Martin Garrix</div>
+            <span class="hero__image-text--team">Team Lead</span>
           </div>
         </div>
         <div class="hero__buttons">
-          <a class="hero__button button button--primary" href="/"
+          <a class="hero__buttons button button--primary" href="/"
             >Hire this team</a
           >
           <a class="button button--secondary" href="/">Join a team</a>
@@ -92,7 +92,7 @@
       </div>
     </section>
     <section class="members">
-      <div class="container">
+      <div class="container relative">
         <div class="members__grid">
           <div>
             <picture>
@@ -112,10 +112,10 @@
               </p>
             </div>
             <div class="members__social-icons">
-              <div class="members__social-icons-twitter">
+              <div class="members__social-icons">
                 <i class="icon icon--twitter"></i>
               </div>
-              <div class="members__social-icons-github">
+              <div class="members__social-icons">
                 <i class="icon icon--github"></i>
               </div>
             </div>
@@ -138,10 +138,10 @@
               </p>
             </div>
             <div class="members__social-icons">
-              <div class="members__social-icons-twitter">
+              <div class="members__social-icons">
                 <i class="icon icon--twitter"></i>
               </div>
-              <div class="members__social-icons-github">
+              <div class="members__social-icons">
                 <i class="icon icon--github"></i>
               </div>
             </div>
@@ -164,10 +164,10 @@
               </p>
             </div>
             <div class="members__social-icons">
-              <div class="members__social-icons-twitter">
+              <div class="members__social-icons">
                 <i class="icon icon--twitter"></i>
               </div>
-              <div class="members__social-icons-github">
+              <div class="members__social-icons">
                 <i class="icon icon--github"></i>
               </div>
             </div>
@@ -190,10 +190,10 @@
               </p>
             </div>
             <div class="members__social-icons">
-              <div class="members__social-icons-twitter">
+              <div class="members__social-icons">
                 <i class="icon icon--twitter"></i>
               </div>
-              <div class="members__social-icons-github">
+              <div class="members__social-icons">
                 <i class="icon icon--dribbble"></i>
               </div>
             </div>
@@ -224,7 +224,7 @@
           <span
             class="members__triangle-3 triangle-bordered triangle-bordered--solid"
           ></span>
-          <span class="members__circle-4 circle circle--18 circle--blue"></span>
+          <span class="members__circle-4 circle circle--small circle--blue"></span>
         </div>
       </div>
     </section>
@@ -253,8 +253,8 @@
       </div>
     </section>
     <section>
-      <div class="container">
-        <div class="assets">
+      <div class="container assets">
+        <div class="assets__grid">
           <div class="assets__shape">
             <picture>
               <img
@@ -264,19 +264,10 @@
               />
             </picture>
           </div>
-          <div class="assets__circle">
-            <span
-              class="assets__circle-1 circle-bordered circle-bordered--super circle-bordered--green"
-              >1</span
-            >
-            <span
-              class="assets__circle-2 circle circle--super-large circle--gray"
-              >2</span
-            >
-            <span
-              class="assets__circle-3 circle circle--super-large circle--gray"
-              >3</span
-            >
+          <div class="assets__circle ">
+            <div class="assets__circle assets__circle-border--green">1</div>
+            <div class="assets__circle assets__circle--gray">2</div>
+            <div class="assets__circle assets__circle--gray">3</div>
           </div>
           <div class="assets__text">
             <h2>We support their growth.</h2>
@@ -349,7 +340,7 @@
     <section>
       <div class="container">
         <div class="row__grid">
-          <div class="row__col-1">
+          <div>
             <picture>
               <img
                 class="row__image"
@@ -363,7 +354,7 @@
               debet invidunt. Eam ei natu.
             </p>
           </div>
-          <div class="row__col-2">
+          <div>
             <picture>
               <img
                 class="row__image"
@@ -371,13 +362,13 @@
                 alt="members-2"
               />
             </picture>
-            <h5 class="row__col-title">Dedicated Team</h5>
+            <h5 class="row__col-title">Motivaded Developers</h5>
             <p class="row__col-text">
               Lorem ipsum dolor sit amet, at nemore animal tamquam eam, est te
               debet invidunt. Eam ei natu.
             </p>
           </div>
-          <div class="row__col-3">
+          <div>
             <picture>
               <img
                 class="row__image"
@@ -385,13 +376,13 @@
                 alt="members-2"
               />
             </picture>
-            <h5 class="row__col-title">Dedicated Team</h5>
+            <h5 class="row__col-title">Account Manager</h5>
             <p class="row__col-text">
               Lorem ipsum dolor sit amet, at nemore animal tamquam eam, est te
               debet invidunt. Eam ei natu.
             </p>
           </div>
-          <div class="row__col-4">
+          <div>
             <picture>
               <img
                 class="row__image"
@@ -399,7 +390,7 @@
                 alt="members-2"
               />
             </picture>
-            <h5 class="row__col-title">Dedicated Team</h5>
+            <h5 class="row__col-title">Flexible Contract</h5>
             <p class="row__col-text">
               Lorem ipsum dolor sit amet, at nemore animal tamquam eam, est te
               debet invidunt. Eam ei natu.
@@ -438,7 +429,7 @@
     </section>
     <section>
       <div class="container">
-        <div class="our-skills our-skills__typeface">
+        <div class="our-skills our-skills--typeface">
           <h1 class="our-skills__text">
             What our clients say!
           </h1>
@@ -465,12 +456,9 @@
             <h5 class="customer__title">Tiffany Winsor</h5>
             <p class="customer__text-2">Head of product Slack</p>
           </div>
-          <div class="customer__col-2">
+          <div class="relative">
             <div class="customer__path customer__path--right"></div>
-            <div class="customer__col-2 customer--circle-green"></div>
-            <div class="customer__col-2 customer--line"></div>
-            <br />
-            <div class="customer__col-2">
+            <div class="customer__image-container">
               <picture>
                 <img
                   class="customer__image-laptop"
@@ -500,23 +488,19 @@
     <section>
       <div class="container">
         <footer class="footer">
-          <div class="footer__copy">
-            <p class="footer__copy footer__copy--text">
-              ateam.dev, All Rights Reserved 2019 ©
-            </p>
+          <div class="footer__text">
+            ateam.dev, All Rights Reserved 2019 ©
           </div>
-          <div class="footer__icon">
-            <p class="footer__copy footer__copy--text footer__copy--icon">
-              contactus@ateam.dev
-            </p>
+          <div class="footer__text footer__text--green">
+            contactus@ateam.dev
             <div class="footer__social-icons">
-              <div class="footer__social-icons-twitter">
+              <div class="footer__icon">
                 <i class="icon icon--twitter"></i>
               </div>
-              <div class="footer__social-icons-github">
+              <div class="footer__icon">
                 <i class="icon icon--github"></i>
               </div>
-              <div class="footer__social-icons-linkedin">
+              <div class="footer__icon">
                 <i class="icon icon--linkedin"></i>
               </div>
             </div>

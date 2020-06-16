@@ -15,7 +15,7 @@
 @import "modules/shapes";
 @import "modules/banner-block";
 @import "modules/button";
-@import "modules/our.skills";
+@import "modules/our-skills";
 @import "modules/assets";
 @import "modules/contact";
 @import "modules/adult";
@@ -23,3 +23,6 @@
 @import "modules/customer";
 @import "modules/inner";
 @import "modules/footer";
+
+// Helpers 
+@import "helpers/position-helpers"

@@ -1,7 +1,10 @@
 .customer {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 113px;
+  padding-left: 110px;
+  padding-right: 200px;
 
   &__path {
     position: relative;
@@ -9,30 +12,23 @@
     height: 20px;
     border-left: 1px solid $brand-color;
     border-bottom: 1px solid $brand-color;
-    transform: rotate(45deg);
-    margin: 0;
 
     &--left {
       top: 150px;
       left: -100px;
+      transform: rotate(45deg);
     }
 
     &--right {
       top: 210px;
-      left: 830px;
+      left: 590px;
       transform: rotate(220deg);
     }
   }
 
   &__col-1 {
-    position: relative;
     text-align: center;
-    width: 405px;
-    left: 70px;
-  }
-
-  &__col-2 {
-    position: relative;
+    max-width: 405px;
   }
 
   &__image {
@@ -59,28 +55,36 @@
     margin-bottom: 2px;
   }
 
-  &--circle-green {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    background-color: $brand-color;
-    position: absolute;
-    left: 280px;
+  &__image-container {
+    position: relative;
+
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+    }
+
+    &:before {
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      background-color: $brand-color;
+      right: -90px;
+      top: 10px;
+    }
+
+    &:after {
+      width: 2px;
+      height: 720px;
+      background-color: $mercury;
+      transform: rotate(45deg);
+      top: -130px;
+      left: 275px;
+    }
   }
 
   &__image-laptop {
     position: relative;
-    top: -40px;
-    left: 190px;
-  }
-
-  &--line {
-    width: 2px;
-    height: 720px;
-    background-color: $mercury;
-    transform: rotate(45deg);
-    position: absolute;
-    top: -149px;
-    left: 483px;
+    z-index: 10;
   }
 }
